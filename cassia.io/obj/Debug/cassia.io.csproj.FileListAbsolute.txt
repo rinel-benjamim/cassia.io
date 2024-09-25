@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\bin\Debug\cassia.io.exe.config
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\bin\Debug\cassia.io.exe
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\bin\Debug\cassia.io.pdb
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\bin\Debug\Guna.UI2.dll
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.exe.licenses
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.csproj.Up2Date
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.exe
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.pdb
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.frmMain.resources
