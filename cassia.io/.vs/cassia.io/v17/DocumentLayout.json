@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|c:\\users\\lenovo\\source\\repos\\cassia.io\\cassia.io\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\frmwellcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|solutionrelative:frmwellcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|c:\\users\\lenovo\\source\\repos\\cassia.io\\cassia.io\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AC37B55-022B-48BF-B681-1DE26057C179}|cassia.io.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +66,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "frmWellcome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\frmWellcome.cs",
+              "RelativeDocumentMoniker": "frmWellcome.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\frmWellcome.cs [Design]",
+              "RelativeToolTip": "frmWellcome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:58:47.424Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAlwBEAAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAawDAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T18:57:06.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\cassia.io\\cassia.io\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

@@ -12,3 +12,4 @@ C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.csproj.Up2D
 C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.exe
 C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.pdb
 C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.frmMain.resources
+C:\Users\LENOVO\source\repos\cassia.io\cassia.io\obj\Debug\cassia.io.frmWelcome.resources

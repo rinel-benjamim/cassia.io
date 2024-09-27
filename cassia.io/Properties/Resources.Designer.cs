@@ -63,6 +63,16 @@ namespace cassia.io.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Avatar_Sem_Fundo {
+            get {
+                object obj = ResourceManager.GetObject("Avatar Sem Fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_plant_60px_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8_plant_60px_1", resourceCulture);

@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.blForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.pnlBackgroundForm1 = new System.Windows.Forms.Panel();
+            this.pnlContainer = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlContainerHeadarMain = new System.Windows.Forms.Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlHeaderControlBox = new Guna.UI2.WinForms.Guna2Panel();
@@ -40,7 +41,6 @@
             this.cboxMain = new Bunifu.UI.WinForms.BunifuFormControlBox();
             this.rsizeMain = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.dragControlHeaderControlBox = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.pnlContainer = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlBackgroundForm1.SuspendLayout();
             this.pnlContainerHeadarMain.SuspendLayout();
             this.pnlHeaderControlBox.SuspendLayout();
@@ -67,6 +67,14 @@
             this.pnlBackgroundForm1.Name = "pnlBackgroundForm1";
             this.pnlBackgroundForm1.Size = new System.Drawing.Size(1112, 569);
             this.pnlBackgroundForm1.TabIndex = 0;
+            // 
+            // pnlContainer
+            // 
+            this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContainer.Location = new System.Drawing.Point(0, 69);
+            this.pnlContainer.Name = "pnlContainer";
+            this.pnlContainer.Size = new System.Drawing.Size(1112, 500);
+            this.pnlContainer.TabIndex = 1;
             // 
             // pnlContainerHeadarMain
             // 
@@ -160,7 +168,7 @@
             this.cboxMain.HelpBoxOptions.PressedColor = System.Drawing.Color.Silver;
             this.cboxMain.Location = new System.Drawing.Point(981, 0);
             this.cboxMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.cboxMain.MaximizeBox = true;
+            this.cboxMain.MaximizeBox = false;
             this.cboxMain.MaximizeBoxOptions.BackColor = System.Drawing.Color.Transparent;
             this.cboxMain.MaximizeBoxOptions.BorderRadius = 0;
             this.cboxMain.MaximizeBoxOptions.Enabled = true;
@@ -190,6 +198,7 @@
             this.cboxMain.ShowDesignBorders = false;
             this.cboxMain.Size = new System.Drawing.Size(131, 29);
             this.cboxMain.TabIndex = 0;
+            this.cboxMain.MaximizeRestoreClicked += new System.EventHandler<Bunifu.UI.WinForms.BunifuFormControlBox.MaximizeRestoreClickedEventArgs>(this.cboxMain_MaximizeRestoreClicked);
             // 
             // rsizeMain
             // 
@@ -200,14 +209,6 @@
             this.dragControlHeaderControlBox.DockIndicatorTransparencyValue = 0.6D;
             this.dragControlHeaderControlBox.TargetControl = this.pnlHeaderControlBox;
             this.dragControlHeaderControlBox.UseTransparentDrag = true;
-            // 
-            // pnlContainer
-            // 
-            this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContainer.Location = new System.Drawing.Point(0, 69);
-            this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(1112, 500);
-            this.pnlContainer.TabIndex = 1;
             // 
             // frmMain
             // 
@@ -221,6 +222,7 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.pnlBackgroundForm1.ResumeLayout(false);
             this.pnlContainerHeadarMain.ResumeLayout(false);
             this.pnlHeaderControlBox.ResumeLayout(false);
