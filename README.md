@@ -1,2 +1,2 @@
-# cassia.io
+# cassia.io (Em desennvolvimento)
  App de poupanças
